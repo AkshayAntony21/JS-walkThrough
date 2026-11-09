@@ -24,13 +24,32 @@ console.log(typeof choice);
 
 let year;
 console.log(typeof year);
-*/
+
 
 let age = 30;
 age = 31;
 
-const old;
+const old = 23;
 
-old = 25;
+lama = "jack";
 
+const ageDona = 2026 - 2008;
+console.log(ageDona, old, "Dub");
 
+console.log("Dub" + " " + lama);
+*/
+
+const firstName = "Jake";
+const job = "Engineer";
+const birthYear = 2000;
+const now = 2026;
+
+console.log("I'm " + firstName + ', a ' + job + " who is " + (now - birthYear) + " year's old");
+
+console.log(`I'm ${firstName}, a ${job} who is ${now - birthYear} year's old`);
+
+console.log(`multi
+line
+break`);
+
+console.log("Hey \n\It's Me!");
