@@ -37,7 +37,7 @@ const ageDona = 2026 - 2008;
 console.log(ageDona, old, "Dub");
 
 console.log("Dub" + " " + lama);
-*/
+
 
 const firstName = "Jake";
 const job = "Engineer";
@@ -53,3 +53,8 @@ line
 break`);
 
 console.log("Hey \n\It's Me!");
+*/
+
+const birthYear = "1000";
+const add = Number(birthYear) + 18;
+console.log(add);
