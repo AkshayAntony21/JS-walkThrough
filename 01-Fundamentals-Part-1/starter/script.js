@@ -53,8 +53,29 @@ line
 break`);
 
 console.log("Hey \n\It's Me!");
-*/
+
 
 const birthYear = "1000";
-const add = Number(birthYear) + 18;
-console.log(add);
+const add = " ";
+console.log(Boolean(add));
+
+
+const day = 'Wedday';
+
+switch (day) {
+    case 'monday':
+        console.log("Go to office.");
+        break;
+    case 'tuesday':
+        console.log('Eat Food');
+        break;
+    case 'Wednesday':
+    case 'Thursday':
+        console.log("Gotta chill but cant");
+        break;
+    default:
+        console.log('In office');
+        break;
+}
+*/
+
